@@ -10,6 +10,11 @@ img {
     vertical-align: top;
 }
 
+.inocente {
+    display: flex;
+    margin: auto;
+}
+
 :root {
     --Amarillo: #EAC926;
     --Azul: #03264C;
