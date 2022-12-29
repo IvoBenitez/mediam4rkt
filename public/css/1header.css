@@ -8,6 +8,7 @@ header {
     width: 50%;
 }
 
+
 #configHeader {
     color: white;
     display: flex;
@@ -92,9 +93,9 @@ header {
         width: 30%;
     }
 
-    .burger-menu {
-/*         display: none; */
-    }
+/*     .burger-menu {
+        display: none;
+    } */
 
     .contenedor__buscador {
         width: 30%;
