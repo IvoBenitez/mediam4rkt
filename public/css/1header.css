@@ -1,0 +1,133 @@
+@import url(config.css);
+
+header {
+    background-color: red;
+}
+
+#logo {
+    width: 50%;
+}
+
+#configHeader {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2rem 0 0 0;
+}
+
+.burger-menu {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+.burger-menu i{
+    color: var(--beige-claro);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.configLupa {
+    background-color: white;
+}
+
+.cuotas {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.cuotas p {
+    font-size: 12px;
+}
+
+.cuotas div {
+    display: inline;
+}
+
+.contenedor__buscador {
+    background-color: white;
+    width: 50%;
+    align-self: center;
+    display: flex;
+    border-radius: 4px;
+}
+
+.contenedor__buscador form {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.contenedor__buscador input {
+    width: 100%
+}
+
+#BannerOfertas img {
+    width: 100vw;
+}
+
+.Confignav {
+    display: none;
+}
+
+
+
+
+
+/* Media Tablet */
+@media (min-width: 400px) {
+
+    .cuotas {
+        display: none;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    .burger-menu {
+/*         display: none; */
+    }
+
+    .contenedor__buscador {
+        width: 30%;
+    }
+
+    .cuotas {
+        width: 30%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+    }
+
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 1.5rem;
+        width: 100vw;
+    }
+
+    .Confignav {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 12px;
+        margin: auto;
+    }
+}
+
+/* desktop */
+@media (min-width: 769px) {
+
+}

@@ -1,0 +1,49 @@
+@import url(config.css);
+
+footer {
+    background-color: white;
+}
+
+.configFooter1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.configFooter2 {
+    padding: 2rem 3rem;
+    text-align: center;
+    max-width: 30rem;
+}
+
+.configFooter2 .fas{
+    font-size: 2rem;
+    color: var(--Azul);
+    padding-bottom: 0.625rem;
+}
+
+.configFooter2 h3{
+    font-size: 16px
+}
+
+.configFooter2 p{
+    font-size: 12px
+}
+
+.configFooter2 .fas:hover{
+    color: blue;
+}
+
+#copyright{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
+/* desktop */
+@media (min-width: 769px) {
+    .configFooter1{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
