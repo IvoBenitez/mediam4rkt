@@ -19,6 +19,11 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: block;
+    color: blue;
+}
+
 img {
     max-width: 100%;
     vertical-align: top;
