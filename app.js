@@ -11,7 +11,7 @@ const port= process.env.PORT || 3001
     app.listen(port, ()=>console.log("Servidor corriendo en el puerto http://localhost:" + port));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/MercadoLiebre.html'));
+    res.sendFile(path.resolve(__dirname, './views/MediaM4rkt.html'));
 })
 
 app.get('/register', (req, res) => {
